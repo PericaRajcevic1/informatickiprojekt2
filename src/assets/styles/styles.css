@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap");
+#app {
+  font-family: "Dosis", sans-serif !important;
+}
+
+.theme--light {
+  --bg-color: 255, 255, 255;
+  --font-color: 18, 18, 18;
+}
+
+path {
+  fill: rgb(var(--font-color));
+}
+
+.theme--dark {
+  --bg-color: 18, 18, 18;
+  --font-color: 255, 255, 255;
+}
+
+/*# sourceMappingURL=styles.css.map */
