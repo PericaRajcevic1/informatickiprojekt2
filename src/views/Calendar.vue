@@ -139,7 +139,7 @@ export default {
 
   mounted() {
     axios
-        .get('http://ergast.com/api/f1/current.json', {
+        .get('https://ergast.com/api/f1/current.json', {
           
         })
         .then((response) => {
