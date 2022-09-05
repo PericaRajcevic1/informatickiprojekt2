@@ -125,6 +125,8 @@ export default {
       {text: 'Poredak konstruktora', icon: 'mdi-car-sports', route: '/constructorStandings'},
       {text: 'Kalendar', icon: 'mdi-calendar', route: '/calendar'},
       {text: 'Pretraga Sezona', icon: 'mdi-calendar-multiple', route: '/seasons'},
+      {text: 'O projektu', icon: 'mdi-message-text', route: '/about'},
+
     ],
   }),
   watch: {

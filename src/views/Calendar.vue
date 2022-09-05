@@ -140,7 +140,7 @@ export default {
   mounted() {
     axios
         .get('http://ergast.com/api/f1/current.json', {
-          baseURL: process.env.VUE_APP_BASE_URL
+          
         })
         .then((response) => {
           this.loading = false

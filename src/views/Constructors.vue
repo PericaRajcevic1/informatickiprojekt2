@@ -78,7 +78,7 @@ export default {
   mounted() {
     axios
         .get('https://ergast.com/api/f1/2022/constructorStandings.json', {
-          baseURL: process.env.VUE_APP_BASE_URL
+          
         })
         .then((response) => {
           this.loading = false

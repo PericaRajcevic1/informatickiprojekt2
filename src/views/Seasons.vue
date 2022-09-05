@@ -129,7 +129,7 @@ export default {
   methods: {
     getSeasons() {
       axios.get('https://ergast.com/api/f1/seasons.json', {
-        baseURL: process.env.VUE_APP_BASE_URL,
+        
         params: {
           limit: 100
         }
@@ -139,25 +139,25 @@ export default {
     },
     getSeason(year) {
       axios.get(`https://ergast.com/api/f1/${year}.json`, {
-        baseURL: process.env.VUE_APP_BASE_URL
+        
       }).then((response) => {
         this.resultModel = false
         this.season = response.data.MRData.RaceTable.Races
       })
       axios.get(`https://ergast.com/api/f1/${year}/constructorStandings.json`, {
-        baseURL: process.env.VUE_APP_BASE_URL
+        
       }).then((response) => {
         this.constructors = response.data.MRData.StandingsTable.StandingsLists[0].ConstructorStandings
       })
       axios.get(`https://ergast.com/api/f1/${year}/driverStandings.json`, {
-        baseURL: process.env.VUE_APP_BASE_URL
+        
       }).then((response) => {
         this.drivers = response.data.MRData.StandingsTable.StandingsLists[0].DriverStandings
       })
     },
     getResults(year, round) {
       axios.get(`https://ergast.com/api/f1/${year}/${round}/results.json`, {
-        baseURL: process.env.VUE_APP_BASE_URL
+        
       }).then((response) => {
         this.loading = false
         this.resultModel = true

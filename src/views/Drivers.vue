@@ -43,7 +43,7 @@ export default {
   mounted() {
     axios
         .get('https://ergast.com/api/f1/2022/driverStandings.json', {
-          baseURL: process.env.VUE_APP_BASE_URL
+          
         })
         .then((response) => {
           this.season = response.data.MRData.StandingsTable.season
