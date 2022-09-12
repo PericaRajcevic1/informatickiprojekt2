@@ -40,7 +40,6 @@
               <v-list-item-subtitle>{{ race.Circuit.circuitName }}</v-list-item-subtitle>
             </v-list-item-content>
 
-
           </v-list-item>
 
           <v-card-actions>

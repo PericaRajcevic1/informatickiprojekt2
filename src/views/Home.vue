@@ -153,8 +153,7 @@ export default {
 </script>
 
 <style scoped>
-#mycontainer {
-}
+
 
 #customTitle {
   letter-spacing: 10px;

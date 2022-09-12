@@ -2,7 +2,7 @@
 
   <v-app>
 
-    <!--    appBar & navDrawer-->
+    <!--    appBar i navDrawer-->
     <AppNavDrawer/>
 
     <!--main view / router-->
