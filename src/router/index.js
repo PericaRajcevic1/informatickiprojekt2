@@ -7,7 +7,7 @@ import Results from "@/views/Results";
 import News from "@/views/News";
 import Seasons from "@/views/Seasons";
 import Home from "@/views/Home";
-import About from "@/views/About";
+
 
 Vue.use(VueRouter)
 
@@ -18,8 +18,8 @@ const routes = [
     { path: '/calendar', component: Calendar },
     { path: '/calendar/results/:id', component: Results, name : 'results' },
     { path: '/news', component: News, name : 'news' },
-    { path: '/seasons', component: Seasons, name : 'seasons' },
-    { path: '/about', component: About, name : 'About' },
+    { path: '/seasons', component: Seasons, name : 'seasons' }
+    
 ]
 
 const router = new VueRouter({

@@ -76,13 +76,12 @@
 
       <v-app-bar-nav-icon aria-label="Nav button" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
      
-
       <v-toolbar-title id="title--f1">F1 INFO</v-toolbar-title>
 
       <v-spacer/>
       <div v-if="$vuetify.breakpoint.lgAndUp">
 
-          <v-btn aria-label="Početna" fab small to="/" class="ml-4" text rounded active-class="primary">
+          <v-btn  aria-label="Početna" fab small to="/" class="ml-4" text rounded active-class="primary">
             <v-icon>mdi-home</v-icon>
           </v-btn>
           <v-btn
@@ -125,7 +124,7 @@ export default {
       {text: 'Poredak konstruktora', icon: 'mdi-car-sports', route: '/constructorStandings'},
       {text: 'Kalendar', icon: 'mdi-calendar', route: '/calendar'},
       {text: 'Pretraga Sezona', icon: 'mdi-calendar-multiple', route: '/seasons'},
-      {text: 'O projektu', icon: 'mdi-message-text', route: '/about'},
+      
 
     ],
   }),
@@ -138,9 +137,12 @@ export default {
 </script>
 <style>
 #title--f1 {
-  /*font-family: "Grenze", sans-serif;*/
+  
   font-size: 2.5rem;
   font-weight: bold;
   color: #FF385C;
+  
 }
+
+
 </style>
