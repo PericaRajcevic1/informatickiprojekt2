@@ -40,7 +40,7 @@
                         <v-icon>mdi-trophy</v-icon> &nbsp; {{ driver.wins }} 
                       </v-chip>
                       <v-chip>
-                        <v-icon>mdi-counter</v-icon> &nbsp; {{ driver.points }} bodova
+                        <v-icon>mdi-counter</v-icon> &nbsp;  Bodovi: {{ driver.points }} 
                       </v-chip>
                     </v-chip-group>
 
